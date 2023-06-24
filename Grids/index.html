@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="grey darken-4">
+    <div class="container">
+        
+        <!-- NavBar -->
+        <nav class="nav-wrapper grey darken-4 z-depth-0  pink-text">
+            <ul>
+                <li>
+                    <i class="material-icons">menu</i>
+                </li>
+            </ul>
+            
+            <a href="#" class="nav-logo center">
+                <h1 class="pink-text">Grid</h1>
+            </a>
+        </nav>
+
+
+        <div class="row white-text">
+            <div class="col s12 m10">
+                <p>
+                    We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.
+                </p>
+                <h3 class="pink-text">Container</h3>
+                <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to center your page content. The container class is set to ~70% of the window width. It helps you center and contain your page content. We use the container to contain our body content. </p>
+                <h5>Demo</h5>
+                <p>Try the button below to see what the page looks like without containers.</p>
+                <a class="waves-effect waves-light btn">TURN OFF CONTAINERS</a>
+                <img src="./Image/Material.png" class="responsive-img image-demo left"/>
+                <p>To add a container just put your content inside a <code>div</code> tag with a container class. Here's an example of how your page might be set up.</p>
+                <h3 class="pink-text">Introduction</h3>
+                <p>Take a look at this section to quickly understand how the grid works!</p>
+                <h5>12 Columns</h5>
+                <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+
+                <div class="row">
+                    <div class="col s1 card orange"><p class="text-white center">1</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">2</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">3</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">4</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">5</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">6</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">7</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">8</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">9</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">10</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">11</p></div>
+                    <div class="col s1 card orange"><p class="text-white center">12</p></div>
+                    
+                </div>
+                <p>To get a feel of how the grid is used in HTML, take a look at the code below which will produce a similar result to the one above.</p>
+                <h5>Columns live inside Rows</h5>
+                <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+                <div class="row">
+                    <div class="col s12 card orange"><p class="text-white center">This div is 12-columns wide on all screen sizes</p></div>
+                    <div class="col s6 card orange"><p class="text-white center">6-columns (one-half)</p></div>
+                    <div class="col s6 card orange"><p class="text-white center">6-columns (one-half)</p></div>
+                </div>
+            
+            </div>
+            <div class="col">
+                
+                <div class="row ">
+                    <div class="col hide-on-small-only m3 l2">
+                        <ul class="section table-of-contents ">
+                            <li><a href="#introduction" class="white-text">Introduction</a></li>
+                            <li><a href="#structure" class="white-text">Structure</a></li>
+                            <li><a href="#initialization" class="white-text">Intialization</a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        
+    </div>
+    
+   
+
+    <!-- Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
